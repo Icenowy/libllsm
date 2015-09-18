@@ -1,3 +1,4 @@
-[submodule "pyin2"]
+[submodule "is-libpyin"]
 	path = external/libpyin
-	url = https://github.com/Sleepwalking/libpyin.git
+	url = https://github.com/Icenowy/libpyin.git
+	branch = cmake
