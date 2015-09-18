@@ -1,0 +1,3 @@
+[submodule "pyin2"]
+	path = external/libpyin
+	url = https://github.com/Sleepwalking/libpyin.git
