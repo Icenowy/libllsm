@@ -18,6 +18,9 @@ set_target_properties(llsm PROPERTIES
     POSITION_INDEPENDENT_CODE ON
 )
 
+add_subdirectory(external/libpyin)
+target_link_libraries(llsm PUBLIC pyin)
+
 
 # Arrange header files for external use
 add_custom_command(TARGET llsm POST_BUILD COMMAND ${CMAKE_COMMAND} -E make_directory "include")
